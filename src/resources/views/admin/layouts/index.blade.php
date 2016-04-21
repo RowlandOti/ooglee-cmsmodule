@@ -6,17 +6,17 @@
 <!--**********************************************************************************-->
 <html lang="en">
 <head>
-    @include('admin.layouts.head')
+    @include('ooglee-cms::admin.layouts.head')
 </head>
 <body id="Body" class="skin-green sidebar-mini">
     <!-- wrapper -->
     <div class="wrapper">
         <!-- Header -->
-        @include('admin.layouts.header')
+        @include('ooglee-cms::admin.layouts.header')
         <!-- ./Header -->
 
         <!-- SidebarMain -->
-        @include('admin.layouts.sidebarmain')
+        @include('ooglee-cms::admin.layouts.sidebarmain')
         <!-- ./SidebarMain -->
 
         <!-- Content Wrapper-->
@@ -28,17 +28,17 @@
         <!-- ./Content Wrapper -->
 
         <!-- Footer -->
-        @include('admin.layouts.footer')
+        @include('ooglee-cms::admin.layouts.footer')
         <!-- ./Footer -->
 
         <!-- SideBar Control -->
-        @include('admin.layouts.sidebarcontrol')
+        @include('ooglee-cms::admin.layouts.sidebarcontrol')
         <!-- ./SideBar Control -->
     </div>
     <!-- ./wrapper -->
 
     <!-- Footer Scripts -->
-    @include('admin.layouts.footerscripts')
+    @include('ooglee-cms::admin.layouts.footerscripts')
     <!-- ./Footer Scripts --> 
 </body>
 </html>
