@@ -1,4 +1,4 @@
-<?php namespace Oogle\Domain\Providers;
+<?php namespace Ooglee\Domain\Providers;
 
 use Ooglee\Domain\Events\UserRegisteredEvent;
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
