@@ -1,4 +1,4 @@
-Laravel User
+Laravel CMS
 ============
 
 ### Status
