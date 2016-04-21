@@ -1,0 +1,13 @@
+# BACK-END
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+
+# FRONT-END
+/node_modules
+/bower_modules
+.bowerrc
+gulpfile.js
+package.json
+bower.json
