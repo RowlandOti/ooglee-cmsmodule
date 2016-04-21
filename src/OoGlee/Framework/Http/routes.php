@@ -16,6 +16,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function()
 {
     Route::group(['middleware' => 'auth'], function() 
     {
-        Route::get('/', ['as' => 'admin.root', 'uses' => 'DashboardController@index']);
+    	    	#USER MODEL
+        // List Resources
+        Route::get(OogleeCConfig::get('config.routes.base_uri_admin'), ['as' => 'admin.cms.index', 'uses' => 'DashboardController@getIndex']);
     });
 });
