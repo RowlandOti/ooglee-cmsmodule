@@ -20,7 +20,7 @@ class DashboardController extends Controller {
 		$posts = Post::all();
 
 		//return resources listing view
-        return view(\OogleeCConfig::get('config.cms_index.index'), compact('posts'));
+        return view(\OogleeCConfig::get('config.cms_index.index_admin'), compact('posts'));
 	}
 
 	/**
