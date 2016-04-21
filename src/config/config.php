@@ -84,6 +84,6 @@ return array(
 		/**
 		 * Base URI of the package's pages, e.g. "cms" in http://domain.com/cms and http://domain.com/cms/my-cms
 		 */
-		'base_uri_admin' => 'admin/cms'
+		'base_uri_admin' => '/'
 	),
 );
